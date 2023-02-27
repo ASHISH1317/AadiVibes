@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "387381869473",
+    "project_id": "aadivibes-def7d",
+    "storage_bucket": "aadivibes-def7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387381869473:android:be581008fb2a1a9661a9e0",
+        "android_client_info": {
+          "package_name": "com.dt.get_x_starter_kit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387381869473-j6eu4svm5vmspa0js327p3r33tljsrgj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dt.get_x_starter_kit",
+            "certificate_hash": "232c4121d85bcf13b7dd5ca7a1f8b4ab18c96676"
+          }
+        },
+        {
+          "client_id": "387381869473-lmq3mc7ria60t4fcn0u1a4uatqoagpsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArhjEHjbaoZK9Fz3yC2D8VNuACVCovPJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387381869473-lmq3mc7ria60t4fcn0u1a4uatqoagpsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
