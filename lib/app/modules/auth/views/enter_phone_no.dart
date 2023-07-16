@@ -198,6 +198,7 @@ class ContactNumber extends GetView<AuthController> {
                             Padding(
                               padding: const EdgeInsets.only(right: 5),
                               child: GestureDetector(
+                                key: const Key('On Tap Of Enter'),
                                 onTap: () async {
                                   if (controller
                                       .phoneNumberValidateKey.currentState!

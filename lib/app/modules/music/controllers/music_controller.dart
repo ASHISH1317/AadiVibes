@@ -4,6 +4,7 @@ import 'dart:io';
 
 import 'package:aadivibes/app/data/config/logger.dart';
 import 'package:aadivibes/app/data/local/user_provider.dart';
+import 'package:aadivibes/app/data/models/model_music_test.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -107,4 +108,6 @@ class MusicController extends GetxController {
       logE(e.toString());
     }
   }
+
+  RxList<Music> music = <Music>[].obs;
 }

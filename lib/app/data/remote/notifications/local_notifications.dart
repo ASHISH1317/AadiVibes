@@ -65,21 +65,21 @@ class FlutterLocalNotificationHelper {
       {@required String? title,
       @required String? body,
       @required String? payload}) async {
-    const AndroidNotificationDetails androidPlatformChannelSpecifics =
-        AndroidNotificationDetails('your channel id', 'your channel name',
+//    const AndroidNotificationDetails androidPlatformChannelSpecifics =
+    /*AndroidNotificationDetails('your channel id', 'your channel name',
             importance: Importance.max, priority: Priority.high);
-    /*  const IOSNotificationDetails iOSPlatformChannelSpecifics =
+*/ /*  const IOSNotificationDetails iOSPlatformChannelSpecifics =
         IOSNotificationDetails();*/
-    const NotificationDetails platformChannelSpecifics = NotificationDetails(
+    /*const NotificationDetails platformChannelSpecifics = NotificationDetails(
       android:
-          androidPlatformChannelSpecifics, /*iOS: iOSPlatformChannelSpecifics*/
-    );
-    await _flutterLocalNotificationsPlugin.show(
+          androidPlatformChannelSpecifics, */ /*iOS: iOSPlatformChannelSpecifics*/ /*
+    );*/
+    /*  await _flutterLocalNotificationsPlugin.show(
       0,
       title,
       body,
       platformChannelSpecifics,
       payload: payload,
-    );
+    );*/
   }
 }
